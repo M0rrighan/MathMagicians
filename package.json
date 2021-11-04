@@ -13,7 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://m0rrighan.github.io/MathMagicians",
+  "homepage": "https://m0rrighan.github.io/math-magicians",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
