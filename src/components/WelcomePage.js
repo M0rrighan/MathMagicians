@@ -1,7 +1,8 @@
 import React from 'react';
+import './WelcomePage.css';
 
 const WelcomePage = () => (
-  <div>
+  <div className="welcome-page">
     <h2>Welcome to Math Magicians</h2>
     <p>text</p>
     <p>more text</p>
