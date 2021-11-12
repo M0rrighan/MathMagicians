@@ -22,11 +22,7 @@ const App = () => (
         <Route
           exact
           path="/Quote"
-          element={(
-            <div className="container">
-              <Quote />
-            </div>
-        )}
+          element={<Quote />}
         />
       </Routes>
     </div>

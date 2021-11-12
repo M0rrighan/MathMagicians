@@ -50,7 +50,6 @@ const Header = () => {
             <li key={link.id} style={{ cursor: 'pointer' }}>
               <NavLink to={link.path}>
                 {link.text}
-                {/* {console.log(useLocation())} */}
               </NavLink>
             </li>
           )) }
