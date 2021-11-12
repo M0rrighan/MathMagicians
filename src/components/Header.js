@@ -1,21 +1,21 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const links = [
     {
       id: 1,
-      path: '/math-magicians',
+      path: '/',
       text: 'Home',
     },
     {
       id: 2,
-      path: '/math-magicians/Calculator',
+      path: '/Calculator',
       text: 'Calculator',
     },
     {
       id: 3,
-      path: '/math-magicians/Quote',
+      path: '/Quote',
       text: 'Quote',
     },
   ];
@@ -28,6 +28,7 @@ const Header = () => {
     gap: '2rem',
     fontSize: '1.5rem',
     padding: '1rem 2rem',
+    boxShadow: '0px 10px 30px 5px hsl(0deg 0% 40% / 50%), inset 0px 4px 10px 5px hsl(0deg 0% 59% / 50%)',
   };
 
   const navUlStyle = {
@@ -46,11 +47,11 @@ const Header = () => {
       <nav>
         <ul style={navUlStyle}>
           { links.map((link) => (
-            <li key={link.id}>
-              {/* <NavLink to={link.path} activeClassName="active" exact>
+            <li key={link.id} style={{ cursor: 'pointer' }}>
+              <NavLink to={link.path}>
                 {link.text}
-              </NavLink> */}
-              {link.text}
+                {/* {console.log(useLocation())} */}
+              </NavLink>
             </li>
           )) }
         </ul>
