@@ -4,7 +4,7 @@
  - Read a random math-related quote.
 ## Live Demo
 
-[Live Demo Link](https://m0rrighan.github.io/MathMagicians/)
+[Live Demo Link](https://m0rrighan.github.io/math-magicians/)
 
 ## Screenshots
 ### Desktop
